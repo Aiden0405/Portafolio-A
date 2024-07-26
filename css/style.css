@@ -275,7 +275,7 @@ header .navbar ul li a:hover{
 }
 
 .about .skills .progress:nth-child(1) .bar span{
-    width:80%;
+    width:85%;
 }
 
 .about .skills .progress:nth-child(2) .bar span{
@@ -287,10 +287,14 @@ header .navbar ul li a:hover{
 }
 
 .about .skills .progress:nth-child(4) .bar span{
-    width:70%;
+    width:80%;
 }
 
 .about .skills .progress:nth-child(5) .bar span{
+    width:55%;
+}
+
+.about .skills .progress:nth-child(6) .bar span{
     width:75%;
 }
 
@@ -565,7 +569,7 @@ header .navbar ul li a:hover{
 
 }
 
-@media (max-width: 990px) {
+/*@media (max-width: 990px) {
     .modal-content {
         max-width: 100%;
         max-height: 100%;
@@ -579,7 +583,7 @@ header .navbar ul li a:hover{
 
 @media (max-width: 990px) {
     .close {
-        top: 60px; /* Ajusta según tus necesidades */
-        right: 20px; /* Ajusta según tus necesidades */
+        top: 60px; /* Ajusta según tus necesidades
+        right: 20px; /* Ajusta según tus necesidades 
     }
-}
+}*/
