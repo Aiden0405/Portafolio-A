@@ -61,3 +61,31 @@ function closeModal() {
     modal.style.display = 'none';
 }
 */
+
+
+// FIREBASE 
+// // Get the form element
+// const form = document.querySelector('form');
+
+// // Add an event listener to the form submission event
+// form.addEventListener('submit', (e) => {
+//   e.preventDefault();
+
+//   // Get the form data
+//   const name = document.querySelector('input[name="name"]').value;
+//   const email = document.querySelector('input[name="email"]').value;
+//   const project = document.querySelector('input[name="project"]').value;
+//   const message = document.querySelector('textarea[name="message"]').value;
+
+//   // Use Firebase to send the form data to your database
+//   firebase.database().ref('contact-form-submissions').push({
+//     name,
+//     email,
+//     project,
+//     message,
+//   }).then(() => {
+//     console.log('Form data sent successfully!');
+//   }).catch((error) => {
+//     console.error('Error sending form data:', error);
+//   });
+// });
